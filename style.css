@@ -1,6 +1,7 @@
 body {
+    background-image: url("back.jpg");
+    background-size: contain;
     height: 100vh;
-    background-color: #0c95c7;
     border: 2px solid black;
    }
    
@@ -20,6 +21,7 @@ body {
    
    .birthdayCard {
      position: relative;
+     left: 35px;
      width: 250px;
      height:350px;
      cursor: pointer;
@@ -55,29 +57,29 @@ body {
      position: absolute;
      width: 85px;
      height:95px;
-     border-radius:50%;
+     border-radius:500%;
    }
    
    .balloonOne {
-     background-color: rgb(239, 71, 111, 0.7);
+     background-color: black;
      left:-10px;
      top:50px;
    }
    
    .balloonTwo {
-     background-color: rgb(6, 214, 160, 0.7);
+     background-color: black;
      left:50px;
      top:20px;
    }
    
    .balloonThree {
-     background-color: rgb(255, 209, 102, 0.7);
+     background-color: black;
      left:110px;
      top:50px;
    }
    
    .balloonFour {
-     background-color: rgb(17, 138, 178, 0.7);
+     background-color: black;
      left:170px;
      top:20px;
    }
